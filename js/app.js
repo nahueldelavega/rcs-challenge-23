@@ -1,10 +1,10 @@
-let skyCloudy = document.getElementById('skyChangeC');
-let skySunny = document.getElementById('skyChangeS');
-
-function changeColor(color){
-    document.body.sky.backgroundColor = color;
-}
-
-function changeSkyColor(){
-    changeColor('grey');
+function changeColor(){
+    let changeLol = document.getElementById('mySky').classList;
+    if(changeLol.contains('blue')){
+        changeLol.add('grey');
+        changeLol.remove('blue');
+    }else{
+        changeLol.add('blue');
+        changeLol.remove('grey');
+    }
 }

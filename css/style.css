@@ -8,6 +8,15 @@ body{
     z-index: 1;
 }
 
+.blue{
+    background-color: lightblue;
+}
+.grey{
+    background-color: grey;
+}
+.btn{
+    width: 130px;
+}
 .mountain-1{
     background-color: sienna;
     width: 250px;
